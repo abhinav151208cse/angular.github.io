@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="angular.js"></script>
+	<script type="text/javascript" src="thscript.js"></script>
+</head>
+<body ng-app="myModule">
+	<div ng-controller="myController">
+		<table>
+			<thead>
+				<tr>
+                    <th>First Name</th>
+                    <th>LAst Name</th>
+                    <th>Gender</th>
+                    <th>Salary</th>    
+				</tr>
+              </thead>
+              <tbody>
+                   <tr ng-repeat="employee in employees">
+                     <td>{{employee.firstname}}</td>
+                     <td>{{employee.lastname</td>
+                     <td>{{employee.gender}}</td>
+                     <td>{{employee.salary}}</td>
+
+
+
+                   </tr>
+
+              </tbody>
+		</table></div>
+
+</body>
+</html>
